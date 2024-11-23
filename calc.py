@@ -18,7 +18,7 @@ def clear_expression():
     entry.delete(0, tk.END)
 
 root = tk.Tk()
-root.title("Simple Calculator")
+root.title("Calculator")
 
 entry = tk.Entry(root, width=16, font=('Arial', 24), borderwidth=2, relief="solid", justify="right")
 entry.grid(row=0, column=0, columnspan=4)
