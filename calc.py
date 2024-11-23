@@ -48,5 +48,5 @@ for i in range(6):
     root.grid_rowconfigure(i, weight=1)
     root.grid_columnconfigure(i % 4, weight=1)
 
-# Run the Tkinter event loop
+
 root.mainloop()
